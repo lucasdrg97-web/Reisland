@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+    background: #1e3a8a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(#1e3a8a, #3b82f6);
+    color: white;
+}
+
+/* Cursos */
+.cursos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.curso {
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+/* Método */
+.metodo {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Contacto */
+.contacto {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 350px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
