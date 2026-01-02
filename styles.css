@@ -48,7 +48,7 @@ body {
     height: 110px;
     border-radius: 100%;
     background-color: var(--color-fondo1);
-   
+    padding: 10px;
     align-items: center;
 }
 .nav-links a {
@@ -630,3 +630,4 @@ footer {
     100% { transform: translateX(-50%); }
 
 }
+
