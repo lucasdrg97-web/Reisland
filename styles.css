@@ -43,14 +43,14 @@ body {
 .title-logo {
     display: none;
 }
-.logo {
+/* .logo {
     margin: 20px 0px 0px 40px;
     height: 100px;
     border-radius: 100%;
     background-color: var(--color-fondo1);
     padding: 10px;
     align-items: center;
-}
+} */
 .nav-links a {
     color: var(--color-fondo1);
     text-decoration: none;
@@ -630,5 +630,6 @@ footer {
     100% { transform: translateX(-50%); }
 
 }
+
 
 
